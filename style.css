@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+body {
+  font-family: Space Mono;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #000000;
+  max-width: 1200px;
+  margin-left: 100px;
+  margin-right: auto;
+}
+header {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+section {
+}
+p {
+  color: #fff;
+  max-width: 350px;
+}
+#image1 {
+  padding: 90px 0px 90px 0px;
+}
+#image2 {
+  margin-bottom: 90px;
+}
+#image2 img {
+  margin-bottom: 50px;
+}
+#image2 p {
+  color: #000;
+  background-color: #fff;
+  max-width: 630px;
+  height: 50px;
+  padding: 15px 25px 15px 25px;
+}
+#image3 {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+#image3 img {
+  margin-bottom: 50px;
+}
+#image3 p {
+  color: #000;
+  background-color: #fff;
+  max-width: 630px;
+  height: 50px;
+  padding: 15px 25px 15px 25px;
+}
+.process {
+  margin: 90px 0px 50px 0px;
+  padding-bottom: 50px;
+  font-size: 24px;
+  color: #fff;
+  border-bottom: solid 1px #fff;
+}
+
+footer {
+  background-color: #1a1a1a;
+  margin: 90px 0px 90px 0px;
+  padding: 30px 45px 40px 45px;
+}
+
+#email {
+  color: #6a6a6a;
+}
+
+nav {
+  padding-top: 50px;
+}
+
+nav a {
+  margin-right: 25px;
+  color: #6a6a6a;
+  text-decoration: none;
+}
