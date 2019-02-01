@@ -4,18 +4,20 @@ body {
   font-size: 14px;
   line-height: 1.5;
   background-color: #000000;
+  color: #fff;
   max-width: 1200px;
-  margin-left: 100px;
-  margin-right: auto;
-}
-header {
-  margin-top: 150px;
-  margin-bottom: 150px;
 }
 section {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+header {
+  margin: 150px 100px 150px 100px;
+}
+header img {
+  width: 50%;
 }
 p {
-  color: #fff;
   max-width: 350px;
 }
 #image1 {
@@ -58,7 +60,7 @@ p {
 
 footer {
   background-color: #1a1a1a;
-  margin: 90px 0px 90px 0px;
+  margin: 90px 100px 90px 100px;
   padding: 30px 45px 40px 45px;
 }
 
@@ -74,4 +76,59 @@ nav a {
   margin-right: 25px;
   color: #6a6a6a;
   text-decoration: none;
+}
+
+@media (max-width: 720px) {
+  body {
+    font-size: 12px;
+  }
+  section {
+    margin: 0px 30px 0px 30px;
+  }
+  header {
+    margin: 50px 30px 50px 30px;
+  }
+  p {
+    max-width: 260px;
+  }
+  #image1 {
+    padding: 50px 0px 50px 0px;
+  }
+  #image2 {
+    margin-bottom: 50px;
+  }
+  #image2 img {
+    margin-bottom: 25px;
+  }
+  #image2 p {
+    height: 50px;
+    padding: 15px 25px 15px 25px;
+  }
+  #image3 {
+    margin-top: 50px;
+    margin-bottom: 45px;
+  }
+  #image3 img {
+    margin-bottom: 50px;
+  }
+  #image3 p {
+    max-width: 630px;
+    height: 50px;
+    padding: 15px 25px 15px 25px;
+  }
+  .process {
+    font-size: 18px;
+    margin: 50px 0px 25px 0px;
+    padding-bottom: 25px;
+  }
+
+  footer {
+    margin: 25px 0px 0px 0px;
+    padding: 30px 45px 40px 45px;
+  }
+
+  nav a {
+    display: block;
+    padding: 0 0 15px 0;
+  }
 }
